@@ -1,0 +1,80 @@
+{
+  "uid" : "581045a4a1bacf00",
+  "name" : "anyUserShouldBeAbleToSeeTheDashboard",
+  "title" : "Any user should be able to see the dashboard",
+  "time" : {
+    "start" : 1468344275572,
+    "stop" : 1468344286414,
+    "duration" : 10842
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "7c8dcc6933d68da7",
+    "name" : "TestSuite : Regression1",
+    "title" : "TestSuite : Regression1"
+  },
+  "steps" : [ {
+    "name" : "setUp",
+    "title" : "Open Dashboard page",
+    "time" : {
+      "start" : 1468344265271,
+      "stop" : 1468344275525,
+      "duration" : 10254
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyPage",
+    "title" : "Check that page is correct",
+    "time" : {
+      "start" : 1468344275916,
+      "stop" : 1468344286193,
+      "duration" : 10277
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Any user should be able to see the Dashboard"
+  }, {
+    "name" : "host",
+    "value" : "testing-worker-linux-docker-a00bb858-3383-linux-9"
+  }, {
+    "name" : "thread",
+    "value" : "2608@testing-worker-linux-docker-a00bb858-3383-linux-9.pool-1-thread-1(10)"
+  }, {
+    "name" : "suite-name",
+    "value" : "TestSuite : Regression1"
+  }, {
+    "name" : "suite-title",
+    "value" : "TestSuite : Regression1"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,155 @@
+{
+  "uid" : "bf0b56b7ac1e99a5",
+  "name" : "existingUserShouldBeAbleToLogin",
+  "title" : "Existing user should be able to login",
+  "time" : {
+    "start" : 1468344275572,
+    "stop" : 1468344295984,
+    "duration" : 20412
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 7
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "7c8dcc6933d68da7",
+    "name" : "TestSuite : Regression1",
+    "title" : "TestSuite : Regression1"
+  },
+  "steps" : [ {
+    "name" : "setUp",
+    "title" : "Open Dashboard page",
+    "time" : {
+      "start" : 1468344265277,
+      "stop" : 1468344275546,
+      "duration" : 10269
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyPage",
+    "title" : "Check that page is correct",
+    "time" : {
+      "start" : 1468344275931,
+      "stop" : 1468344286321,
+      "duration" : 10390
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickLoginButton",
+    "title" : "Click Login button",
+    "time" : {
+      "start" : 1468344286326,
+      "stop" : 1468344289271,
+      "duration" : 2945
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "verifyPage",
+      "title" : "Check that page is correct",
+      "time" : {
+        "start" : 1468344287211,
+        "stop" : 1468344289271,
+        "duration" : 2060
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "doLogin[com.jetbrains.youtrack.users.YoutrackUser@6989d384, DASHBOARD]",
+    "title" : "Fill login form and submit it",
+    "time" : {
+      "start" : 1468344289274,
+      "stop" : 1468344295403,
+      "duration" : 6129
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "verifyPage",
+      "title" : "Check that page is correct",
+      "time" : {
+        "start" : 1468344290591,
+        "stop" : 1468344295403,
+        "duration" : 4812
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "isUserLoggedIn[com.jetbrains.youtrack.users.YoutrackUser@6989d384]",
+    "title" : "Check that user is successfully logged in",
+    "time" : {
+      "start" : 1468344295407,
+      "stop" : 1468344295984,
+      "duration" : 577
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Existing user should be able to login successfully"
+  }, {
+    "name" : "host",
+    "value" : "testing-worker-linux-docker-a00bb858-3383-linux-9"
+  }, {
+    "name" : "thread",
+    "value" : "2608@testing-worker-linux-docker-a00bb858-3383-linux-9.pool-1-thread-2(11)"
+  }, {
+    "name" : "suite-name",
+    "value" : "TestSuite : Regression1"
+  }, {
+    "name" : "suite-title",
+    "value" : "TestSuite : Regression1"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

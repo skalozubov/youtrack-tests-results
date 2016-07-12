@@ -1,0 +1,155 @@
+{
+  "uid" : "838ac256f5d463c0",
+  "name" : "userWithIncorrectPasswordShouldNotBeAbleToLogin",
+  "title" : "User with incorrect password should not be able to login",
+  "time" : {
+    "start" : 1468344300089,
+    "stop" : 1468344314270,
+    "duration" : 14181
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 7
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "7c8dcc6933d68da7",
+    "name" : "TestSuite : Regression1",
+    "title" : "TestSuite : Regression1"
+  },
+  "steps" : [ {
+    "name" : "setUp",
+    "title" : "Open Dashboard page",
+    "time" : {
+      "start" : 1468344296183,
+      "stop" : 1468344300088,
+      "duration" : 3905
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyPage",
+    "title" : "Check that page is correct",
+    "time" : {
+      "start" : 1468344300095,
+      "stop" : 1468344309502,
+      "duration" : 9407
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickLoginButton",
+    "title" : "Click Login button",
+    "time" : {
+      "start" : 1468344309507,
+      "stop" : 1468344311585,
+      "duration" : 2078
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "verifyPage",
+      "title" : "Check that page is correct",
+      "time" : {
+        "start" : 1468344309865,
+        "stop" : 1468344311585,
+        "duration" : 1720
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "doLogin[com.jetbrains.youtrack.users.YoutrackUser@6989d384, LOGIN]",
+    "title" : "Fill login form and submit it",
+    "time" : {
+      "start" : 1468344311589,
+      "stop" : 1468344314028,
+      "duration" : 2439
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "verifyPage",
+      "title" : "Check that page is correct",
+      "time" : {
+        "start" : 1468344313271,
+        "stop" : 1468344314028,
+        "duration" : 757
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "isLoginErrorMessageVisible",
+    "title" : "Check that login error message is on the page",
+    "time" : {
+      "start" : 1468344314031,
+      "stop" : 1468344314270,
+      "duration" : 239
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "User with incorrect password should not be able to login"
+  }, {
+    "name" : "host",
+    "value" : "testing-worker-linux-docker-a00bb858-3383-linux-9"
+  }, {
+    "name" : "thread",
+    "value" : "2608@testing-worker-linux-docker-a00bb858-3383-linux-9.pool-1-thread-2(11)"
+  }, {
+    "name" : "suite-name",
+    "value" : "TestSuite : Regression1"
+  }, {
+    "name" : "suite-title",
+    "value" : "TestSuite : Regression1"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

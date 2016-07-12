@@ -1,0 +1,60 @@
+{
+  "time" : {
+    "start" : 1468344275572,
+    "stop" : 1468344314270,
+    "duration" : 38698
+  },
+  "testSuites" : [ {
+    "uid" : "7c8dcc6933d68da7",
+    "name" : "TestSuite : Regression1",
+    "title" : "TestSuite : Regression1",
+    "time" : {
+      "start" : 1468344275572,
+      "stop" : 1468344314270,
+      "duration" : 38698
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "bf0b56b7ac1e99a5",
+      "name" : "existingUserShouldBeAbleToLogin",
+      "title" : "Existing user should be able to login",
+      "time" : {
+        "start" : 1468344275572,
+        "stop" : 1468344295984,
+        "duration" : 20412
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "581045a4a1bacf00",
+      "name" : "anyUserShouldBeAbleToSeeTheDashboard",
+      "title" : "Any user should be able to see the dashboard",
+      "time" : {
+        "start" : 1468344275572,
+        "stop" : 1468344286414,
+        "duration" : 10842
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "838ac256f5d463c0",
+      "name" : "userWithIncorrectPasswordShouldNotBeAbleToLogin",
+      "title" : "User with incorrect password should not be able to login",
+      "time" : {
+        "start" : 1468344300089,
+        "stop" : 1468344314270,
+        "duration" : 14181
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}
